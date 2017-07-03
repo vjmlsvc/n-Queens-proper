@@ -13,7 +13,7 @@ function permute(order) {
 // permutation generating code modified from user le_m at:
 // https://stackoverflow.com/questions/9960908/permutations-in-javascript
 	var result = [""];
-	for (var i = 1; i <= order; i++) result[0] += i;
+	for (var j = 1; j <= order; j++) result[0] += j;
 	// generates initial board state using numbers from 1 to <order>
 
 	var permutation = result[0].split("");
